@@ -4,12 +4,13 @@ This is a frontend exercise that will give you the chance to see what kind of th
 
 You will be building a simplified version of our main app, the Plug (www.plugco.in). This is the app through which our influencer access our offers, track their earnings, and manage their account. In particular, you will be recreating our main 'offer' feed:
 
-![starter-screenshot](https://i.imgur.com/rOE6IPf.mp4)
+![starter-screenshot](https://media.giphy.com/media/TjXk3cQsBMLH6vsTEw/source.gif)
 
 We've spun up an endpoint on our server to return a sample feed of offers as a JSON blob. You can access that here:
 http://www.plugco.in/api/take_home_sample_feed
 
-Your job is set up an Objective-C iOS project that calls the sample endpoint and renders feed based on the JSON data returned. I've provided a design of the feed and explanation of each component in the Sketch file: 'feed_template_react_01.sketch'
+Your job is set up an Objective-C iOS project that calls the sample endpoint and renders feed based on the JSON data returned. I've provided the design and an explanation of each component in a Sketch file - 'feed_template_react_01.sketch'. This file is included in the repository:
+
 
 ![starter-screenshot](https://i.imgur.com/y4wuYGx.png)
 
