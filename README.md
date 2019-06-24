@@ -10,7 +10,7 @@ http://www.plugco.in/api/take_home_sample_feed
 Your job is set up an Objective-C iOS project that calls the sample endpoint and renders feed based on the JSON data returned. I've provided the design and an explanation of each component in a Sketch file - 'feed_template_react_01.sketch'. This file is included in the repository:
 
 
-![starter-screenshot](https://i.imgur.com/y4wuYGx.png)
+![starter-screenshot](https://i.imgur.com/ZWbt9Ha.png)
 
 Ideally, this should take around a day to finish, but let us know how much time you spent so we can calibrate our expectations!
 
