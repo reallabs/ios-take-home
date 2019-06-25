@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-iOS Takehome/Pods-iOS Takehome-frameworks.sh
+${BUILT_PRODUCTS_DIR}/JDStatusBarNotification/JDStatusBarNotification.framework
+${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework

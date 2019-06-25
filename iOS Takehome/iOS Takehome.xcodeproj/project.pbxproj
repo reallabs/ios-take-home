@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22ABBD0C22C1AD2F00C43B2F /* CampaignCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ABBD0B22C1AD2F00C43B2F /* CampaignCollectionViewController.m */; };
+		22ABBD0F22C1AD4200C43B2F /* CampaignViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ABBD0E22C1AD4200C43B2F /* CampaignViewCell.m */; };
+		22ABBD1122C1AD5000C43B2F /* MediaCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ABBD1022C1AD5000C43B2F /* MediaCollectionViewController.m */; };
+		22ABBD1522C1AD6C00C43B2F /* MediaViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ABBD1422C1AD6C00C43B2F /* MediaViewCell.m */; };
+		22ABBD1922C1AD8700C43B2F /* Campaign.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ABBD1822C1AD8700C43B2F /* Campaign.m */; };
+		22ABBD1C22C1AD9B00C43B2F /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ABBD1B22C1AD9B00C43B2F /* Media.m */; };
+		22ABBD2022C1ADBD00C43B2F /* ApiFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ABBD1F22C1ADBD00C43B2F /* ApiFunctions.m */; };
+		22ABBD2522C1B57C00C43B2F /* UIColor+takehome.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ABBD2422C1B57C00C43B2F /* UIColor+takehome.m */; };
+		22ABBD2722C1C83F00C43B2F /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22ABBD2622C1C83F00C43B2F /* Photos.framework */; };
 		22E4D6D522C154730052BD9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E4D6D422C154730052BD9A /* AppDelegate.m */; };
 		22E4D6D822C154730052BD9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E4D6D722C154730052BD9A /* ViewController.m */; };
 		22E4D6DB22C154730052BD9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E4D6D922C154730052BD9A /* Main.storyboard */; };
@@ -17,6 +26,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22ABBD0A22C1AD2400C43B2F /* CampaignCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CampaignCollectionViewController.h; sourceTree = "<group>"; };
+		22ABBD0B22C1AD2F00C43B2F /* CampaignCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampaignCollectionViewController.m; sourceTree = "<group>"; };
+		22ABBD0D22C1AD3900C43B2F /* CampaignViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CampaignViewCell.h; sourceTree = "<group>"; };
+		22ABBD0E22C1AD4200C43B2F /* CampaignViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampaignViewCell.m; sourceTree = "<group>"; };
+		22ABBD1022C1AD5000C43B2F /* MediaCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaCollectionViewController.m; sourceTree = "<group>"; };
+		22ABBD1222C1AD5B00C43B2F /* MediaCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaCollectionViewController.h; sourceTree = "<group>"; };
+		22ABBD1322C1AD6300C43B2F /* MediaViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaViewCell.h; sourceTree = "<group>"; };
+		22ABBD1422C1AD6C00C43B2F /* MediaViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaViewCell.m; sourceTree = "<group>"; };
+		22ABBD1722C1AD7F00C43B2F /* Campaign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Campaign.h; sourceTree = "<group>"; };
+		22ABBD1822C1AD8700C43B2F /* Campaign.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Campaign.m; sourceTree = "<group>"; };
+		22ABBD1A22C1AD9200C43B2F /* Media.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
+		22ABBD1B22C1AD9B00C43B2F /* Media.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
+		22ABBD1E22C1ADB300C43B2F /* ApiFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiFunctions.h; sourceTree = "<group>"; };
+		22ABBD1F22C1ADBD00C43B2F /* ApiFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiFunctions.m; sourceTree = "<group>"; };
+		22ABBD2122C1AE6F00C43B2F /* takehome-header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "takehome-header.pch"; sourceTree = "<group>"; };
+		22ABBD2222C1AF4900C43B2F /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		22ABBD2322C1B56D00C43B2F /* UIColor+takehome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+takehome.h"; sourceTree = "<group>"; };
+		22ABBD2422C1B57C00C43B2F /* UIColor+takehome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+takehome.m"; sourceTree = "<group>"; };
+		22ABBD2622C1C83F00C43B2F /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		22E4D6D022C154730052BD9A /* iOS Takehome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Takehome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E4D6D322C154730052BD9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22E4D6D422C154730052BD9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22ABBD2722C1C83F00C43B2F /* Photos.framework in Frameworks */,
 				88BD84B6A61D75D1E135BF25 /* Pods_iOS_Takehome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,6 +73,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22ABBD0922C1AD1300C43B2F /* Campaigns */ = {
+			isa = PBXGroup;
+			children = (
+				22ABBD0A22C1AD2400C43B2F /* CampaignCollectionViewController.h */,
+				22ABBD0B22C1AD2F00C43B2F /* CampaignCollectionViewController.m */,
+				22ABBD0D22C1AD3900C43B2F /* CampaignViewCell.h */,
+				22ABBD0E22C1AD4200C43B2F /* CampaignViewCell.m */,
+				22ABBD1222C1AD5B00C43B2F /* MediaCollectionViewController.h */,
+				22ABBD1022C1AD5000C43B2F /* MediaCollectionViewController.m */,
+				22ABBD1322C1AD6300C43B2F /* MediaViewCell.h */,
+				22ABBD1422C1AD6C00C43B2F /* MediaViewCell.m */,
+			);
+			path = Campaigns;
+			sourceTree = "<group>";
+		};
+		22ABBD1622C1AD6F00C43B2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22ABBD1722C1AD7F00C43B2F /* Campaign.h */,
+				22ABBD1822C1AD8700C43B2F /* Campaign.m */,
+				22ABBD1A22C1AD9200C43B2F /* Media.h */,
+				22ABBD1B22C1AD9B00C43B2F /* Media.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		22ABBD1D22C1ADA100C43B2F /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				22ABBD1E22C1ADB300C43B2F /* ApiFunctions.h */,
+				22ABBD1F22C1ADBD00C43B2F /* ApiFunctions.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 		22E4D6C722C154730052BD9A = {
 			isa = PBXGroup;
 			children = (
@@ -65,14 +129,21 @@
 		22E4D6D222C154730052BD9A /* iOS Takehome */ = {
 			isa = PBXGroup;
 			children = (
+				22ABBD1D22C1ADA100C43B2F /* Api */,
+				22ABBD1622C1AD6F00C43B2F /* Models */,
+				22ABBD0922C1AD1300C43B2F /* Campaigns */,
 				22E4D6D322C154730052BD9A /* AppDelegate.h */,
 				22E4D6D422C154730052BD9A /* AppDelegate.m */,
 				22E4D6D622C154730052BD9A /* ViewController.h */,
 				22E4D6D722C154730052BD9A /* ViewController.m */,
+				22ABBD2322C1B56D00C43B2F /* UIColor+takehome.h */,
+				22ABBD2422C1B57C00C43B2F /* UIColor+takehome.m */,
 				22E4D6D922C154730052BD9A /* Main.storyboard */,
 				22E4D6DC22C154740052BD9A /* Assets.xcassets */,
 				22E4D6DE22C154740052BD9A /* LaunchScreen.storyboard */,
 				22E4D6E122C154740052BD9A /* Info.plist */,
+				22ABBD2222C1AF4900C43B2F /* Constants.h */,
+				22ABBD2122C1AE6F00C43B2F /* takehome-header.pch */,
 				22E4D6E222C154740052BD9A /* main.m */,
 			);
 			path = "iOS Takehome";
@@ -84,13 +155,13 @@
 				DF062EDB60F68CB3E1CE7F18 /* Pods-iOS Takehome.debug.xcconfig */,
 				5EC7890AC71D3652E2ED054A /* Pods-iOS Takehome.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		77355BAB752694CE43038B43 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22ABBD2622C1C83F00C43B2F /* Photos.framework */,
 				F337A813999F468368EA9311 /* Pods_iOS_Takehome.framework */,
 			);
 			name = Frameworks;
@@ -107,6 +178,7 @@
 				22E4D6CC22C154730052BD9A /* Sources */,
 				22E4D6CD22C154730052BD9A /* Frameworks */,
 				22E4D6CE22C154730052BD9A /* Resources */,
+				7EB82A5E570AB12170439E3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +235,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7EB82A5E570AB12170439E3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Takehome/Pods-iOS Takehome-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Takehome/Pods-iOS Takehome-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS Takehome/Pods-iOS Takehome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C29F600F7F1EC9A75CF06043 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,8 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22ABBD0C22C1AD2F00C43B2F /* CampaignCollectionViewController.m in Sources */,
 				22E4D6D822C154730052BD9A /* ViewController.m in Sources */,
+				22ABBD2022C1ADBD00C43B2F /* ApiFunctions.m in Sources */,
+				22ABBD2522C1B57C00C43B2F /* UIColor+takehome.m in Sources */,
 				22E4D6E322C154740052BD9A /* main.m in Sources */,
+				22ABBD1122C1AD5000C43B2F /* MediaCollectionViewController.m in Sources */,
+				22ABBD1522C1AD6C00C43B2F /* MediaViewCell.m in Sources */,
+				22ABBD1922C1AD8700C43B2F /* Campaign.m in Sources */,
+				22ABBD1C22C1AD9B00C43B2F /* Media.m in Sources */,
+				22ABBD0F22C1AD4200C43B2F /* CampaignViewCell.m in Sources */,
 				22E4D6D522C154730052BD9A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5FLJ6X6HXT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/takehome-header.pch";
 				INFOPLIST_FILE = "iOS Takehome/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -357,6 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5FLJ6X6HXT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/takehome-header.pch";
 				INFOPLIST_FILE = "iOS Takehome/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -8,7 +8,12 @@
 
 #import "AppDelegate.h"
 
+#import <JDStatusBarNotification/JDStatusBarNotification.h>
+#import "ViewController.h"
+
 @interface AppDelegate ()
+
+@property (nonatomic, strong) ViewController *viewController;
 
 @end
 
@@ -16,7 +21,37 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    // Fuck storyboards
+    _viewController = [[ViewController alloc] init];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = _viewController;
+    [self.window makeKeyAndVisible];
+
+    [JDStatusBarNotification addStyleNamed:@"JDStatusBarSuccessColor"
+                                   prepare:^JDStatusBarStyle*(JDStatusBarStyle *style) {
+                                        // main properties
+                                       style.barColor = [UIColor blueColor];
+                                       style.textColor = [UIColor whiteColor];
+                                       style.font = [UIFont systemFontOfSize:NORMALIZED_HEIGHT(12) weight:UIFontWeightRegular];
+                                       style.heightForIPhoneX = JDStatusBarHeightForIPhoneXHalf;
+
+                                       return style;
+                                   }];
+
+    [JDStatusBarNotification addStyleNamed:@"JDStatusBarFailureColor"
+                                   prepare:^JDStatusBarStyle*(JDStatusBarStyle *style) {
+
+                                        // main properties
+                                       style.barColor = [UIColor redColor];
+                                       style.textColor = [UIColor whiteColor];
+                                       style.font = [UIFont systemFontOfSize:NORMALIZED_HEIGHT(12) weight:UIFontWeightRegular];
+                                       style.heightForIPhoneX = JDStatusBarHeightForIPhoneXHalf;
+
+                                       return style;
+                                   }];
+
+
     return YES;
 }
 
