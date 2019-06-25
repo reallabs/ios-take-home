@@ -31,11 +31,10 @@ The project already has a Podfile set up, so any CocoaPod integrations are fair 
 
 ## Bonus
 
-- Add pull-to-refresh to re-do the API query.
-- Handle failed API requests gracefully. Redirect to a 'failed' UI state with a rety option. 
+- Can you add pull-to-refresh? 
+- Can you handle failed API requests gracefully? Maybe redirect to a 'failed' UI state with a rety option? 
 - Can you get the videos to play inline when the 'play' icon is tapped?
-- What steps can you take to optimize the scroll performance? 
-
+- What steps can you take to optimize the load time of cover photos? How about the scroll performance? 
 
 ## Questions?
 
