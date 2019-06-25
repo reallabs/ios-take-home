@@ -9,7 +9,7 @@ http://www.plugco.in/api/take_home_sample_feed
 
 Your job is set up an Objective-C or Swift iOS project that calls the sample endpoint and renders feed based on the JSON data returned. I've provided the design and an explanation of each component in a Sketch file - 'feed_template_react_01.sketch'. This file is included in the repository:
 
-![starter-screenshot](https://i.imgur.com/ZWbt9Ha.png)
+![starter-screenshot](https://i.imgur.com/b5O8M1Z.png)
 
 Ideally, this should take around a day to finish, but let us know how much time you spent so we can calibrate our expectations!
 
@@ -31,6 +31,8 @@ The project already has a Podfile set up, so any CocoaPod integrations are fair 
 
 ## Bonus
 
+- Add pull-to-refresh to re-do the API query.
+- Handle failed API requests gracefully. Redirect to a 'failed' UI state with a rety option. 
 - Can you get the videos to play inline when the 'play' icon is tapped?
 - What steps can you take to optimize the scroll performance? 
 
