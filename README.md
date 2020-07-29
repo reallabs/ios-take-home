@@ -11,7 +11,7 @@ Your job is set up an Objective-C or Swift iOS project that calls the sample end
 
 ![starter-screenshot](https://i.imgur.com/b5O8M1Z.png)
 
-Ideally, this should take around a day to finish, but let us know how much time you spent so we can calibrate our expectations!
+We're giving you 4 hours to make as much progress on this project as possible. While we recognize it will be difficult to finish everything, part of the goal is to see how you prioritize, and how much you're able to get through. 
 
 
 ## Getting started
